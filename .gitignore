@@ -1,0 +1,76 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / compile
+build/
+cmake-build-*/
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+
+# ML artifacts (too large / regenerated)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.plan
+*.trt
+*.rknn
+*.tflite
+*.pb
+*.h5
+*.ckpt
+*.safetensors
+wandb/
+mlruns/
+runs/
+outputs/
+checkpoints/
+
+# Dataset dumps (keep tiny samples under git only if intentional)
+data/raw/
+data/large/
+*.npz
+*.parquet
+
+# Logs & tmp
+*.log
+tmp/
+temp/
+.cache/
+
+# OS package / tool locks
+uv.lock
+# keep poetry.lock / package-lock if you later add apps intentionally
