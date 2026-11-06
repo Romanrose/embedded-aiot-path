@@ -27,6 +27,8 @@ experiments/
 
 命名：`YYYY-MM-DD-<eN|lN>-<slug>/`，slug 用英文短横线。
 
+也可使用周序命名：`YYYY-MM-DD-wNN-<slug>/`（如 `2026-11-20-w05-gpio-irq/`）。
+
 ## 单次实验 README 模板
 
 ```markdown
