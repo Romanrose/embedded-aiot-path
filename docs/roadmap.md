@@ -23,7 +23,9 @@
   - 熟悉 out-of-tree Kbuild、内核源码目录结构与 symbols 查询
 - 资源
   - docs.kernel.org：kernel-hacking、core-api、driver-api 模块相关章节  
-  - Linux Kernel Labs：vm setup、device drivers 开篇（内核版本提示：站点基于 5.10.14）
+  - Linux Kernel Labs：vm/虚拟机设置、device drivers 开篇（页面结构随时间调整）
+- 执行指南
+  - 详见本周细化文档：[`docs/weeks/week01.md`](./weeks/week01.md)
 - 实验与验收
   - 写一个 `hello` 模块与一个导出 `procfs`/`debugfs` 信息的模块（任选其一）  
   - 证据：`dmesg` 截图 + 模块源码与 `Makefile`（放入 `experiments/`）
