@@ -13,7 +13,7 @@
 - Kernel 文档首页（官方）: https://docs.kernel.org/
 - Linux Kernel Labs（总入口；含 Device Drivers 实验与 VM 说明）: https://linux-kernel-labs.github.io/ （在站内检索“virtual machine / VM setup / device drivers”）
 - Bootlin 培训材料（免费部分；嵌入式 Linux 含 QEMU 实验，驱动课需要真实板）: https://bootlin.com/doc/training/embedded-linux/ 、https://bootlin.com/training/kernel/
-- C 语言手册（标准库/语法，查缺补漏用）: https://en.cppreference.com/w/c
+- C 语言手册（标准库/语法，查缺补漏用）: https://en.cppreference.com/w/c （部分网络下可能返回 403，本仓据此标注“无法验证”亦可）
 - GNU make 手册: https://www.gnu.org/software/make/manual/make.html
 
 交付物（本周验收证据，任一环境达成即可）：
