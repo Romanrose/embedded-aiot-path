@@ -32,6 +32,7 @@
 
 ```
 docs/           路线图与说明
+docs/kb/        知识库（是什么/为什么/去哪查；与路线/实验互联）
 tracks/driver/  驱动主线实验导航（本次改版新增）
 tracks/classic/ MCU/RTOS 等补充（归档保留）
 tracks/edge/    端侧 AI 选修（归档保留）
@@ -41,9 +42,9 @@ experiments/    可复现实验记录（禁止虚构结果）
 
 ## 怎么用
 
-1. 打开 [`docs/roadmap.md`](docs/roadmap.md)，按当前周次执行主线任务。  
-2. 进入 `tracks/driver/` 查看「按驱动链路组织」的实验导航与验收清单。  
-3. 实验记录只写 **真实跑通** 的内容，模板见 [`experiments/README.md`](experiments/README.md)。  
+1. 学“是什么/为什么/去哪查”：打开知识库入口 [`docs/kb/README.md`](docs/kb/README.md)  
+2. 决定“何时做什么”：[`docs/roadmap.md`](docs/roadmap.md)  
+3. “如何验证”：进入 `tracks/driver/` 与（若已存在）`docs/weeks/week01.md`；实验记录只写 **真实跑通** 的内容，模板见 [`experiments/README.md`](experiments/README.md)  
 4. 资源以 [`resources/upstream.md`](resources/upstream.md) 为准；外链 404 会被剔除或标「自行检索」。  
 5. 求职向关键词见 [`resources/interview.md`](resources/interview.md)。
 
